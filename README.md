@@ -1,0 +1,2 @@
+## Hi, Selamat datang di kelas Database Batch #1
+Repository terbuka ini merupakan repository kelas Android pada Batch #1, disini para peserta akan diajak belajar bersama menganalisa sampai membangun database dengan DBMS MySQL dengan tema `Membangun Database dengan Metode Normalisasi + Implementasi dan diajarkan membangun Backend /API (Application Programming Interface`, Selamat belajar dan Enjoy it. 😎
