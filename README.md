@@ -31,3 +31,15 @@ Repository terbuka ini merupakan repository kelas Android pada Batch #1, disini 
 * Pengenalan Bahasa Pemrograman PHP (Implementasi Koneksi Database, Menampilkan Output, Implementasi Control Flow If & Else Statement, Switch Case & While Loop)
 * Pengenalan dan Memahami JSON, Membuat output dalam bentu JSON
 * Memahami Request Code & Implementasi pada Output Response
+
+## Pekan 8 & 9 : (4x Pertemuan)
+
+## Pekan 10 & 11 : (4x Pertemuan)
+
+## Pekan 12 & 13 : (4x Pertemuan)
+
+## Pekan 14 & 15 : (4x Pertemuan)
+
+## Pekan 16 & 17 : (4x Pertemuan)
+
+## Pekan 18 : Finishing (2x Pertemuan)
