@@ -4,8 +4,8 @@ Repository terbuka ini merupakan repository kelas Android pada Batch #1, disini 
 ## Pekan 1: Pengenalan Metode Normalisasi Databaseb (2x Pertemuan)
 
 * Preparation Tools dan Kesiapan Kelas
-* Kenapa sih kita perlu atau harus Normalisasi?
-* Pengenalan apa itu Normalisasi
+* Kenapa sih kita perlu atau harus Normalisasi Database?
+* Pengenalan apa itu Normalisasi Database
 * Mengenal Istilah-istilah dalam Normalisasi Database
 * Memahami dengan sebuah Contoh Kasus
 
