@@ -3,11 +3,11 @@ Repository terbuka ini merupakan repository kelas Android pada Batch #1, disini 
 
 ## Pekan 1: Pengenalan Metode Normalisasi Databaseb (2x Pertemuan)
 
-* Preparation Tools dan Kesiapan Kelas <b># Lihat Vidionya</b> 👉 <a href="https://drive.google.com/file/d/1Nyc5zSFFALA13Vms3zvIDSER9A9ED8Jh/view?usp=sharing">Disini</a>
-* Kenapa sih kita perlu atau harus Normalisasi Database? <b># Lihat Vidionya</b> 👉 <a href="https://drive.google.com/file/d/1bSlsgF_mFRav2rkOg3CaYWqTrTja4Ve8/view?usp=sharing">Disini</a>
-* Pengenalan apa itu Normalisasi Database 
-* Mengenal Istilah-istilah dalam Normalisasi Database 
-* Memahami dengan sebuah Contoh Kasus
+* <b>Preparation Tools dan Kesiapan Kelas</b> <b># Lihat Vidionya</b> 👉 <a href="https://drive.google.com/file/d/1Nyc5zSFFALA13Vms3zvIDSER9A9ED8Jh/view?usp=sharing">Disini</a>
+* <b>Kenapa sih kita perlu atau harus Normalisasi Database?</b> <b># Lihat Vidionya</b> 👉 <a href="https://drive.google.com/file/d/1bSlsgF_mFRav2rkOg3CaYWqTrTja4Ve8/view?usp=sharing">Disini</a>
+* <b>Pengenalan apa itu Normalisasi Database </b>
+* <b>Mengenal Istilah-istilah dalam Normalisasi Database </b> 
+* <b>Memahami dengan sebuah Contoh Kasus </b>
 
 ## Pekan 2 & 3 : Menangani Kasus manual Faktur to e-Faktur serta Design Schema ERD & Relation Table (4x Pertemuan)
 
