@@ -11,8 +11,8 @@ Repository terbuka ini merupakan repository kelas Android pada Batch #1, disini 
 
 ## Pekan 2 & 3 : Menangani Kasus manual Faktur to e-Faktur serta Design Schema ERD & Relation Table (4x Pertemuan)
 
-* <b>Normalisasi Faktur/Invoice menjadi Database kedalam bentuk Unnormalisasi </b>
-* <b>Normalisasi 1NF (1st Normal Form) dari Unnormalisasi Form</b> # Lihat Vidionya 👉 <a href="https://drive.google.com/file/d/1ynGLVw78FPFrFj40SlGPw8HB5VdUTSjV/view?usp=sharing"><b>Record Pertemuan #3 Disini</b></a>
+* <b>Normalisasi Faktur/Invoice menjadi Database kedalam bentuk Unnormalisasi </b> # Lihat Vidionya 👉 <a href="https://drive.google.com/file/d/1ynGLVw78FPFrFj40SlGPw8HB5VdUTSjV/view?usp=sharing"><b>Record Pertemuan #3 Disini</b></a>
+* <b>Normalisasi 1NF (1st Normal Form) dari Unnormalisasi Form</b> # Lihat Vidionya 👉 <a href="https://drive.google.com/file/d/14Ugo4-PimHzqpl86iJdvjqIP5X7Tg8k3/view?usp=sharing"><b>Record Pertemuan #4 Disini</b></a>
 * Normalisasi 2NF (2nd Normal Form) dari 1NF 
 * Normalisasi 3NF (3rd Normal Form) dari 2NF
 * Create ERD dan Schema Database dengan www.dbdiagram.io dengan Mengidentifikasi Database, Table, Field beserta Attribute didalamnya 
