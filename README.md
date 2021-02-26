@@ -16,7 +16,7 @@ Repository terbuka ini merupakan repository kelas Android pada Batch #1, disini 
 * <b>Normalisasi 2NF (2nd Normal Form) dari 1NF 
 * Normalisasi 3NF (3rd Normal Form) dari 2NF
 * Create ERD di Whimsical.com </b> # Lihat Vidionya 👉 <a href="https://drive.google.com/file/d/13TCibpUZVxFc2hAygcrwz6REtxz8R6BJ/view?usp=sharing"><b>Record Pertemuan #5 Disini</b></a>
-* Create Schema Database dengan www.dbdiagram.io dengan Mengidentifikasi Database, Table, Field beserta Attribute didalamnya
+* <b>Create Schema Database dengan www.dbdiagram.io dengan Mengidentifikasi Database, Table, Field beserta Attribute didalamnya</b> # Lihat Vidionya 👉 <a href="https://drive.google.com/file/d/1By_m8WeNH-ckdQmT8r8vMGk91Bm_9WTS/view?usp=sharing"><b>Record Pertemuan #5 Disini</b></a>
 
 ## Pekan 4 & 5 : Implementation Schema dari Analyst (4x Pertemuan)
 
