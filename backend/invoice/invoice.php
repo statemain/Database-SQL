@@ -3,6 +3,8 @@
     include '../config/connection.php';
 
     if($_SERVER['REQUEST_METHOD'] == 'POST') {
+
+        // Module Pencarian No Invoice
         $noinvoice = $_POST['no_invoice'];
 
         $cekdatainvoice = mysqli_query($_AUTH, "SELECT COUNT(*) 'totaldata' FROM tbl_invoice WHERE no_invoice = '$noinvoice';");
@@ -16,6 +18,7 @@
             echo json_encode($response);
         } else {
 
+            // Module Header Invoice berdasarkan No Invoice
             $headerinvoice = mysqli_query($_AUTH, "SELECT tbl_invoice.no_invoice, tbl_invoice.tanggal_dibuat, tbl_invoice.mata_uang, tbl_po.no_po, tbl_po.tanggal_po, tbl_invoice.tgl_jatuhtempo, tbl_staff.no_staff, tbl_staff.nama_staff, tbl_staff.posisi FROM tbl_transaksi JOIN tbl_invoice ON tbl_invoice.no_invoice=tbl_transaksi.no_invoice JOIN tbl_po ON tbl_po.no_po=tbl_transaksi.no_po JOIN tbl_staff ON tbl_staff.no_staff=tbl_transaksi.no_staff WHERE tbl_transaksi.no_invoice = '$noinvoice'");
             $extract_header = mysqli_fetch_assoc($headerinvoice);
 
@@ -37,6 +40,7 @@
                                             "posisi" => $extract_header['posisi']
                                         ];
 
+            // Module Data Perusahaan yang Mengorder Barang berdasarkan No. Order
             $data_partner = mysqli_query($_AUTH, "SELECT tbl_partner.kode_partner, tbl_partner.nama_partner, tbl_partner.alamat_partner, CONCAT(tbl_partner.kota, ' - ', tbl_partner.kode_pos) 'kodepos_kota' FROM tbl_transaksi JOIN tbl_partner ON tbl_partner.kode_partner=tbl_transaksi.kode_partner WHERE tbl_transaksi.no_invoice = '$noinvoice'");
             $extract_partner = mysqli_fetch_assoc($data_partner);
 
@@ -47,6 +51,7 @@
                                             "kodepos_kota" => $extract_partner['kodepos_kota']
                                         ];
 
+            // Module Listing Order Barang dari Perusahaan berdasasrkan No. Invoice
             $listpo_produk = mysqli_query($_AUTH, "SELECT tbl_produk.kode_produk, tbl_produk.produk, tbl_produk.diskon, tbl_produk.minimum_request, tbl_produk.harga_satuan, tbl_produk.satuan, tbl_transaksi.jml_qty 'jml_order', tbl_produk.harga_satuan*tbl_transaksi.jml_qty 'jumlah_rupiah', IF(tbl_transaksi.jml_qty>=tbl_produk.minimum_request, 'Diskon', 'Tidak Diskon') 'keterangan', IF(tbl_transaksi.jml_qty>=tbl_produk.minimum_request, ROUND((tbl_produk.harga_satuan*tbl_transaksi.jml_qty)*tbl_produk.diskon/100, 0), 0) 'potongan_rupiah', tbl_produk.harga_satuan*tbl_transaksi.jml_qty - IF(tbl_transaksi.jml_qty>=tbl_produk.minimum_request, ROUND((tbl_produk.harga_satuan*tbl_transaksi.jml_qty)*tbl_produk.diskon/100, 0), 0) 'total_harga' FROM tbl_transaksi JOIN tbl_produk ON tbl_produk.kode_produk=tbl_transaksi.kode_produk WHERE tbl_transaksi.no_invoice = '$noinvoice'");
 
             $response["datapo_listproduct"] = array();
@@ -67,6 +72,7 @@
                 array_push($response['datapo_listproduct'], $data);
             }
 
+            // Module Sub Total, Potong Pajak, Biaya Kirim & Total Pembayaran
             $sub_totalpo = mysqli_query($_AUTH, "SELECT SUM(tbl_produk.harga_satuan*tbl_transaksi.jml_qty - IF(tbl_transaksi.jml_qty>=tbl_produk.minimum_request, ROUND((tbl_produk.harga_satuan*tbl_transaksi.jml_qty)*tbl_produk.diskon/100, 0), 0)) 'sub_total' FROM tbl_transaksi JOIN tbl_produk ON tbl_produk.kode_produk=tbl_transaksi.kode_produk JOIN tbl_invoice ON tbl_invoice.no_invoice=tbl_transaksi.no_invoice WHERE tbl_transaksi.no_invoice = '$noinvoice'");
 
             $extract_subtotalpo = mysqli_fetch_assoc($sub_totalpo);
