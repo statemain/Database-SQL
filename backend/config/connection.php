@@ -4,7 +4,7 @@
     $SERVER = "localhost";
     $USERDB = "root";
     $KEYDB = "!!&21adi";
-    $DBNAME = "db_invoice";
+    $DBNAME = "db_invoiceapi";
 
     $_AUTH = mysqli_connect($SERVER, $USERDB, $KEYDB, $DBNAME);
 
