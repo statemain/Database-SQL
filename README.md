@@ -2,7 +2,7 @@
 Repository terbuka ini merupakan repository kelas Android pada Batch #1, disini para peserta akan diajak belajar bersama menganalisa sampai membangun database dengan DBMS MySQL dengan tema `Membangun Database dengan Metode Normalisasi + Implementasi dan diajarkan membangun Backend /API (Application Programming Interface`, Selamat belajar dan Enjoy it. 😎 Di batch #1 ini akan berlangsung 3 bulan, dalam 1 bulan terdapat 6x pertemuan, jika di total menjadi 18 pertemuan.
 
 ## Bulan 1st: Februari 2021
-Start 10 Februari 2021
+Start 10 Februari 2021 : Done
 
 ### Pekan 1: Pengenalan Metode Normalisasi Databaseb (2x Pertemuan)
 
@@ -22,7 +22,7 @@ Start 10 Februari 2021
 * Create Schema Database dengan www.dbdiagram.io dengan Mengidentifikasi Database, Table, Field beserta Attribute didalamnya
 
 ## Bulan 2nd: Maret 2021
-Start 3 Maret 2021
+Start 3 Maret 2021 : Done
 
 ### Pekan 4 & 5 : Implementation Schema dari Analyst (4x Pertemuan)
 
@@ -40,7 +40,7 @@ Start 3 Maret 2021
 * Memahami Konsep & Cara Kerja Webserver serta Implementasi API
 
 ## Bulan 3rd: April 2021
-Start 2 April 2021
+Start 2 April 2021 : On Going
 
 ### Pekan 7 & 8 : Implementasi Native API BONUS (4x Pertemuan)
 * Pengenalan Pemrograman PHP Dasar & Control Flow (If, Else if, Switch Case, While Loop)
