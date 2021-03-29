@@ -6,8 +6,8 @@ Start 10 Februari 2021
 
 ### Pekan 1: Pengenalan Metode Normalisasi Databaseb (2x Pertemuan)
 
-* Preparation Tools dan Kesiapan Kelas # Lihat Vidionya 👉 <a href="https://drive.google.com/file/d/1Nyc5zSFFALA13Vms3zvIDSER9A9ED8Jh/view?usp=sharing">Record Pertemuan #1 Disini</a>
-* Kenapa sih kita perlu atau harus Normalisasi Database? # Lihat Vidionya 👉 <a href="https://drive.google.com/file/d/1bSlsgF_mFRav2rkOg3CaYWqTrTja4Ve8/view?usp=sharing">Record Pertemuan #2 Disini</a>
+* Preparation Tools dan Kesiapan Kelas 
+* Kenapa sih kita perlu atau harus Normalisasi Database? 
 * Pengenalan apa itu Normalisasi Database 
 * Mengenal Istilah-istilah dalam Normalisasi Database  
 * Memahami dengan sebuah Contoh Kasus 
